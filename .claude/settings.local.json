@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" --max-time 5 http://localhost)",
+      "Bash(npx playwright *)",
+      "Bash(curl -s -X POST http://localhost/api/login -H \"Content-Type: application/json\" -d '{\"username\":\"Administrator\",\"password\":\"admin\"}')",
+      "Bash(docker compose *)",
+      "Bash(curl -sf -o /dev/null -m 3 http://localhost/api/login -X POST -H \"Content-Type: application/json\" -d '{\"username\":\"Administrator\",\"password\":\"admin\"}')"
+    ]
+  }
+}
