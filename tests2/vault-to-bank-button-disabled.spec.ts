@@ -1,4 +1,4 @@
-import { test } from '../../fixtures/auth.fixture';
+import { test } from '../tests/ui/fixtures/auth.fixture';
 
 test.describe('Vault to Bank', () => {
   test('Transfer button disabled when form incomplete', async ({

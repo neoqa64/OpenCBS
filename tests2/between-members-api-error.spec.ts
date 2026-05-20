@@ -1,4 +1,4 @@
-import { test } from '../../fixtures/auth.fixture';
+import { test } from '../tests/ui/fixtures/auth.fixture';
 
 test.describe('Between Members', () => {
   test('API error shows error toast and stays on form', async ({

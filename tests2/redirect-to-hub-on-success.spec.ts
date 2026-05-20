@@ -1,5 +1,5 @@
-import { test, expect } from '../../fixtures/auth.fixture';
-import { ROUTES } from '../../utils/routes';
+import { test, expect } from '../tests/ui/fixtures/auth.fixture';
+import { ROUTES } from '../tests/ui/utils/routes';
 
 test.describe('Cross-cutting transfer behavior', () => {
   test('successful transfer on all three forms redirects to /transfers hub', async ({

@@ -1,4 +1,4 @@
-import { test } from '../../fixtures/auth.fixture';
+import { test } from '../tests/ui/fixtures/auth.fixture';
 
 test.describe('Transfers Hub', () => {
   test('vault to bank tile navigates to /transfers/from-vault-to-bank', async ({

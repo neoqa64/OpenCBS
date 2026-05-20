@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/auth.fixture';
+import { test, expect } from '../tests/ui/fixtures/auth.fixture';
 
 test.describe('Between Members', () => {
   test('form loads with disabled Transfer button', async ({

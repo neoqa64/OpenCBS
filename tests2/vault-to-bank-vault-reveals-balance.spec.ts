@@ -1,4 +1,4 @@
-import { test } from '../../fixtures/auth.fixture';
+import { test } from '../tests/ui/fixtures/auth.fixture';
 
 test.describe('Vault to Bank', () => {
   test('vault selection reveals balance', async ({ authedPage, vaultToBankPage }) => {

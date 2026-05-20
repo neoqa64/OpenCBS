@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/auth.fixture';
+import { test, expect } from '../tests/ui/fixtures/auth.fixture';
 
 test.describe('Bank to Vault', () => {
   test('form loads with required fields and disabled Transfer button', async ({

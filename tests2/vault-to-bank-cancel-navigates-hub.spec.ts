@@ -1,5 +1,5 @@
-import { test } from '../../fixtures/auth.fixture';
-import { ROUTES } from '../../utils/routes';
+import { test } from '../tests/ui/fixtures/auth.fixture';
+import { ROUTES } from '../tests/ui/utils/routes';
 
 test.describe('Vault to Bank', () => {
   test('Cancel button navigates to hub', async ({ authedPage, vaultToBankPage }) => {
